@@ -39,6 +39,9 @@ p{height:1.5;
 .nav-item a:hover{
     color: black;
     border-bottom: 1.5px solid  #dc7633 ;
+    transform:  translateY(-3px);
+    box-shadow: 0 0 20px 0 #000 ;
+    border-radius:10px;
 }
 .header-section{position:relative;
     width:100%;
@@ -94,6 +97,8 @@ p{height:1.5;
 	text-decoration: none;
 	background:#ba4829;
     height:6vh;
+    transform: translateY(-2px);
+    box-shadow:0 0 20px 0 #9c9a9a; 
 }
 .extradiv i{
     color: orangered;
