@@ -40,8 +40,7 @@ p{height:1.5;
     color: black;
     border-bottom: 1.5px solid  #dc7633 ;
     transform:  translateY(-3px);
-    box-shadow: 0 0 20px 0 #000 ;
-    border-radius:10px;
+
 }
 .header-section{position:relative;
     width:100%;
