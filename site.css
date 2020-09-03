@@ -79,17 +79,20 @@ p{height:1.5;
     color:  #17202a ;
 }
 
+.dropdown .dropdown-menu{background:#db4618; }
 .dropdpown-menu{opacity:50%;
-    color:#fff;
+    color:#000;
     background: orangered;
 }
 .dropdown-menu a{
+    border:none;
+    background-color:#db4618;
 	text-decoration: none;
 }
 .dropdown-menu a:hover{
 	text-decoration: none;
-	color:#606060;
-	background:#606060;
+	background:#ba4829;
+    height:6vh;
 }
 .extradiv i{
     color: orangered;
