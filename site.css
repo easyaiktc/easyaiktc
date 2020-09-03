@@ -83,6 +83,14 @@ p{height:1.5;
     color:#fff;
     background: orangered;
 }
+.dropdown-menu a{
+	text-decoration: none;
+}
+.dropdown-menu a:hover{
+	text-decoration: none;
+	color:#606060;
+	background:#606060;
+}
 .extradiv i{
     color: orangered;
 }
