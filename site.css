@@ -83,6 +83,7 @@ p{height:1.5;
 .dropdpown-menu{opacity:50%;
     color:#000;
     background: orangered;
+    opacity: 50%;
 }
 .dropdown-menu a{
     border:none;
