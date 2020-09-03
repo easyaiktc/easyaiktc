@@ -37,11 +37,19 @@ p{height:1.5;
     color: #fff!important;
 }
 .nav-item a:hover{
-    color: black;
+ 
     border-bottom: 1.5px solid  #dc7633 ;
-    transform:  translateY(-3px);
+    color: black;
 
+    text-shadow: 3px 3px 20px orange,
+        -2px 1px 30px whitesmoke;
+        transform: translateY(-1px);
+       
 }
+.dropdpown-menu a:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
 .header-section{position:relative;
     width:100%;
     height:inherit;
@@ -73,7 +81,7 @@ p{height:1.5;
 .header-buttons a:hover{color: #d35400 ;
     background-color:#fff;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+  
 }
 .center-div p{
     font-size:1.3rem;
@@ -81,23 +89,30 @@ p{height:1.5;
     color:  #17202a ;
 }
 
-.dropdown .dropdown-menu{background:#db4618; }
-.dropdpown-menu{opacity:50%;
+.dropdown .dropdown-menu{background:orangered }
+.dropdpown-menu{
     color:#000;
-    background: orangered;
-    opacity: 50%;
+    
+    background-color: orangered;
+  
 }
 .dropdown-menu a{
     border:none;
-    background-color:#db4618;
+   color:black;
+  
 	text-decoration: none;
 }
 .dropdown-menu a:hover{
+    border:none;
+
+}
+.dropdown-menu a:hover{
 	text-decoration: none;
-	background:#ba4829;
+	 box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     height:6vh;
-    transform: translateY(-2px);
-    box-shadow:0 0 20px 0 #9c9a9a; 
+  background-color: orangered;
+    color: black;
+
 }
 .extradiv i{
     color: orangered;
