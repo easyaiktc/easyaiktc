@@ -78,6 +78,11 @@ p{height:1.5;
     padding:10px 0 20px 0;
     color:  #17202a ;
 }
+
+.dropdpown-menu{opacity:50%;
+    color:#fff;
+    background: orangered;
+}
 .extradiv i{
     color: orangered;
 }
