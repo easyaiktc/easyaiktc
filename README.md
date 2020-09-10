@@ -1,3 +1,3 @@
 ### Easy AIKTC
 
-** A platform for providing Notes Easily.**
+** A platform for providing Notes Easily.
