@@ -1,0 +1,96 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  p{
+    word-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .headerpart{
+    height: 500px;
+    width:100%;
+  }
+
+  svg{
+    display: block;
+  }
+  
+  nav-item a{
+    color: #fff!important;
+  }
+  .nav-item a:hover{
+  
+    border-bottom: 1.5px solid  #dc7633 ;
+    color: black;
+    text-shadow: 3px 3px 20px orange,
+    -2px 1px 30px whitesmoke;
+    transform: translateY(-1px);
+       
+  }
+  
+  .dropdown-menu{background:#1e75f7;
+    color:#fff;
+   }
+  
+  .dropdown-menu a{
+    border:none;
+    color:#fff;
+      text-decoration: none;
+  }
+  
+  .dropdown-menu a:hover{
+      border:none;
+  }
+  
+  .dropdown-menu a:hover{
+      text-decoration: none;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    height:6vh;
+    background-color:#1e75f7;
+    color: black;
+  }
+  
+   
+  .name{
+      margin-top: 150px;
+  }
+  
+  .name{ 
+    word-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 20px white,
+    -2px 1px 30px black;
+  }
+  
+ 
+  .buttonsem{
+    margin-top: 50px;
+
+}
+.buttonsem a{
+    font-weight: 800;
+}
+ 
+.sem-btn a{
+  /* border:1px solid white; */
+  border-radius:50%;
+  padding:24px  29px;
+  color:#fff;
+  background-color: #0275d8;
+  outline:none;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.4;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.sem-btn a:hover{color: #0275d8;
+  background-color:#ffff ;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+  
