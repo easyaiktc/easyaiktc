@@ -51,11 +51,11 @@ nav-item a{
 
  
 .name{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .name{ 
-  word-spacing: 10px;
+  word-spacing:3px;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   text-shadow: 3px 3px 20px white,
@@ -71,9 +71,9 @@ nav-item a{
   -2px 1px 30px black;
 }
 
-.png{
-  padding-top:70px;
-}
+  /* .png{
+    padding-top:70px;
+  } */
 
 .contents{
   padding-top: 15px;
