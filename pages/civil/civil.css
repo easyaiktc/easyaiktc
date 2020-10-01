@@ -1,0 +1,105 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  p{
+    word-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .headerpart{background-image: linear-gradient(#06beb6,#48b1bf);
+    
+    
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+
+  }
+  
+  nav-item a{
+    color: black;
+    
+  }
+  .nav-item a:hover{
+  
+    border-bottom: 1.5px solid rgb(241, 234, 234) ;
+    color: black;
+    text-shadow: 3px 3px 20px  #f8f4f2,
+    -2px 1px 30px rgb(253, 246, 246);
+    transform: translateY(-1px);
+       
+  }
+  
+  .dropdown-menu{background: #06beb6;
+    color:#39a6b3;
+   }
+  
+  .dropdown-menu a{background-color: #06beb6;
+    border:none;
+    color:rgba(0, 0, 0, 0.61);
+      text-decoration: none;
+  }
+  
+  
+  
+  .dropdown-menu a:hover{
+      text-decoration: none;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    height:6vh;
+    background-color:#48b1bf;
+    color: black;
+    border:none;
+  }
+
+   
+  .name{
+      margin-top: 120px;
+  }
+  
+  .name{ 
+    word-spacing:3px;
+    font-family: 'Poppins', sans-serif;
+    
+    text-shadow: 3px 3px 20px #fffbfa,
+    -2px 1px 30px #39a6b3;
+  }
+  
+  
+  
+   
+  
+  .contents{
+    padding-top: 15px;
+  }
+  .buttonsem{
+    margin-top: 50px;
+    padding-top: 15px;
+
+}
+.buttonsem a{
+    font-weight: 800;
+}
+ 
+.sem-btn a{
+  /* border:1px solid white; */
+  border-radius:50%;
+  padding:24px  29px;
+  color:#fff;
+    background-color: #06beb6;
+    
+  outline:none;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.4;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.sem-btn a:hover{color:#48b1bf;
+  background-color:white;
+  text-decoration: none;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+ 
+}
+
+

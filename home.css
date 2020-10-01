@@ -3,15 +3,14 @@
 }
 
 @keyframes slide{
-    0%{ opacity: 0;
-        width: 0%;
+    0%{ opacity: 0; width: 0%; left: 0%;
     }
     20%{color: blanchedalmond;
-        opacity:0.4;
-        width: 100%;
-    }
-    100%{opacity:1;
-        color:black;
+        opacity:0.2; width: 20%; left: 10%;}
+    40%{ opacity:0.4; width:40%; left:20%;}
+    60%{opacity: 0.6; width: 60%;left:30%;}
+    80%{opacity: 0.8; width: 80%; left:40%;}
+    100%{opacity:1; color:black;width: 100%; left:50%;
         
     }
    
@@ -21,8 +20,8 @@
 
   
   
- animation: slide 4s linear 1;
- -webkit-animation: slide 4s linear 1;
+ animation: slide 2s linear 1;
+ -webkit-animation: slide 2s linear 1;
   
 }
 .a{margin-top: 50px;
@@ -48,7 +47,7 @@ h3{
         opacity: 0.2;
         width: 0%;
     }
-    20%{color: rgb(226, 222, 215);
+    50%{color: rgb(226, 222, 215);
         opacity:0.4;
         
     }
@@ -104,11 +103,9 @@ button{
     }
 }
 
-.f-border{
-      border-top: 0.5px dashed #606060;  
-}
+
  .cc{
      
     /*background-image: url("32.png");*/
-    background-image: linear-gradient(to bottom , white , #606060);
+    background-image: linear-gradient(to bottom , white , #e6e4e4);
     }
