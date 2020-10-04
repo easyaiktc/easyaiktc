@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="preloader()">
+  <div id="loading"></div>
 
 <header class="headerpart bg-light">
         <div class="headerpart  text-center">
@@ -164,6 +165,13 @@ We also provide many utilites like CGPA convertor, scientific calculator, simple
           <!-- Copyright -->
      
         <!-- Footer --> 
+        
+ <script>
+   var loading = document.getElementById('loading');
+   function preloader(){
+     loading.style.display = 'none';
+   }
+ </script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

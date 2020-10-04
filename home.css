@@ -2,6 +2,18 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+#loading{
+  
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+  background-color: #f3f3f3;
+  background-image: url('preloader.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}'
+
 @keyframes slide{
     0%{ opacity: 0; width: 0%; left: 0%;
     }
@@ -107,7 +119,7 @@ button{
  .cc{
      
     /*background-image: url("32.png");*/
-    background-image: url('images.jpeg');
+    background-image: url('footer.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
