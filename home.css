@@ -107,5 +107,7 @@ button{
  .cc{
      
     /*background-image: url("32.png");*/
-    background-image: linear-gradient(to bottom , white , #e6e4e4);
+    background-image: url('footerbg.jpg');
+    background-repeat: no-repeat;
+    
     }
